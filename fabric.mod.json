@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "killtospawn",
+  "version": "${version}",
+  "name": "Kill To Spawn",
+  "description": "Automatically sends /spawn after you kill a player.",
+  "authors": ["OpenAI"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.killtospawn.client.KillToSpawnClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1",
+    "fabric-api": ">=0.86.0"
+  }
+}
